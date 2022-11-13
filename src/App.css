@@ -1,0 +1,122 @@
+body {
+  background-color: whitesmoke;
+}
+
+.Container {
+  /* background-color: grey; */
+  width: 400px;
+  height: 550px;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 15px;
+  font-family: sans-serif;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(3px);
+}
+
+.font h1 {
+  font-size: 40px;
+  padding-left: 35px;
+  padding-top: 50px;
+  z-index: 1;
+  color: orange;
+}
+
+.font h3 {
+  font-size: 12px;
+  margin-top: -25px;
+  padding-left: 35px;
+}
+
+#input {
+  margin-top: 50px;
+  margin-left: 35px;
+  font-style: underline;
+  background-color: whitesmoke;
+  width: 290px;
+  height: 30px;
+  border-left: 10px;
+  border-top: 10px;
+  border-right: 10px;
+  transition: 0.7s;
+}
+
+#password {
+  border-left: 10px;
+  border-top: 10px;
+  border-right: 10px;
+  margin-left: 35px;
+  margin-top: 40px;
+  background-color: whitesmoke;
+  width: 290px;
+  height: 30px;
+  transition: 0.7s;
+}
+
+#input:hover {
+  transform: scale(1.05);
+}
+
+#password:hover {
+  transform: scale(1.05);
+}
+
+#check {
+  margin-left: 35px;
+  margin-top: 12px;
+  width: 20px;
+  height: 15px;
+  float: left;
+  background-color: whitesmoke;
+  transition: 0.7s;
+}
+
+#check:hover {
+  transform: scale(1.2);
+}
+
+#go {
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+/* #button {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  border-radius: 20%;
+  margin-left: 35px;
+  margin-top: 40px;
+  background-color: orange;
+  border: 0;
+} */
+
+/* .login {
+  color: white;
+  position: absolute;
+  z-index: 1;
+  margin-top: 57px;
+  margin-left: 49px;
+  height: 24px;
+  width: 36px
+} */
+
+.login {
+  border-color: orange;
+  border-radius: 5px;
+  width: 70px;
+  height: 25px;
+  background-color: orange;
+  color: whitesmoke;
+  position: absolute;
+  bottom: 180px;
+  left: 35px;
+}
+
+#jo {
+  color: grey;
+  font-size: 10px;
+  margin-top: 150px;
+  margin-left: 125px;
+  filter: blur(0.4px);
+}
