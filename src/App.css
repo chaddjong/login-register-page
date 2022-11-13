@@ -38,7 +38,7 @@ body {
   border-left: 10px;
   border-top: 10px;
   border-right: 10px;
-  transition: 0.7s;
+  transition: 0.1s;
 }
 
 #password {
@@ -50,7 +50,7 @@ body {
   background-color: whitesmoke;
   width: 290px;
   height: 30px;
-  transition: 0.7s;
+  transition: 0.1s;
 }
 
 #input:hover {
@@ -68,7 +68,7 @@ body {
   height: 15px;
   float: left;
   background-color: whitesmoke;
-  transition: 0.7s;
+  transition: 0.1s;
 }
 
 #check:hover {
@@ -101,7 +101,7 @@ body {
   width: 36px
 } */
 
-.login {
+.login, .register {
   border-color: orange;
   border-radius: 5px;
   width: 70px;
@@ -111,6 +111,15 @@ body {
   position: absolute;
   bottom: 180px;
   left: 35px;
+  transition: 0.1s;
+}
+
+.login:hover {
+  transform: scale(1.2);
+}
+
+.register:hover {
+  transform: scale(1.2);
 }
 
 #jo {

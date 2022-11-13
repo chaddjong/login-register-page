@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import './App.css';
 import HeaderPage from './components/Header'
+import RegisterPage from './components/Register';
 
 
 class App extends Component {
@@ -8,7 +9,7 @@ class App extends Component {
     return (
       <div>
         <HeaderPage />
-        <HeaderPage />
+        <RegisterPage />
       </div>
     );
   }  

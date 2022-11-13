@@ -1,7 +1,7 @@
 import { Component } from "react";
 // import LoginButton from "./LoginButton";
 
-class HeaderPage extends Component {
+class RegisterPage extends Component {
     render() {
         return (
             <div>
@@ -13,7 +13,7 @@ class HeaderPage extends Component {
                 <div class="Container">
 		            <div class="font">
 			            <h1>Hello!</h1>
-			            <h3>Create your username</h3>
+			            <h3>Login with your Registration Number and Password</h3>
 		            </div>
 		            <div class="input">
 			            <form>
@@ -26,7 +26,7 @@ class HeaderPage extends Component {
 				            <label><input type="checkbox" name="check" id="check"></input></label>
 			            </form>
 			            <p id="go">Remember Me</p>
-                        <button class="login" type="submit">Login</button>
+                        <button class="register" type="submit">Register</button>
 			            <p id="jo">2022 U-DINE from Scientia Elit</p>
 		            </div>
 	            </div>
@@ -35,4 +35,4 @@ class HeaderPage extends Component {
     }
 }
 
-export default HeaderPage;
+export default RegisterPage; 
